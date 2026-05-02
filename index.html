@@ -82,8 +82,8 @@
             Build faster with AI plans + teammates in one place.
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
-            <button id="waitlistBtn" class="px-8 py-4 bg-white text-gray-900 font-bold text-lg rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-200 shadow-xl">
-              <i class="fas fa-lightning-bolt mr-2"></i>Try Demo Now
+            <button onclick="openAI()" id="waitlistBtn" class="px-8 py-4 bg-white text-gray-900 font-bold text-lg rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-200 shadow-xl">
+              <i class="fas fa-lightning-bolt mr-2"></i>🚀 Try Nexora AI
             </button>
             <button class="px-8 py-4 border-2 border-white/50 text-white font-semibold text-lg rounded-2xl hover:bg-white/10 backdrop-blur-sm transition-all duration-200">
               <i class="fab fa-youtube mr-2"></i>Watch Demo (2min)
@@ -301,3 +301,9 @@
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
         <input id="emailInput" type="email" placeholder="your@email.com"
+
+<script>
+function openAI() {
+  window.open("https://nexora-ai-indol.vercel.app/text", "_blank");
+}
+</script>
